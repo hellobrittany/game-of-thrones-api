@@ -3,4 +3,4 @@ json.array! @characters.each do |character|
 	json.first_name character.first_name
 	json.house character.house
 	json.city character.city
-end
+end 
