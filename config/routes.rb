@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+	get '/characters' => 'characters#index'
+
 	namespace :api do
 
 		namespace :v1 do 
